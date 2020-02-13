@@ -4,13 +4,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
 
 <body>
-  1001000 1101001 100000 1100010 1100001 1100010 1100101 101110 100000 100000 100000 1010111 1101000 1100001 1110100
-  100000 1100100 1101111 100000 1111001 1101111 1110101 100000 1100100 1101111 1101001 1101110 1100111 100000 1101110
-  1101111 1110111 111111
+  <div class="wrapper">
+    <header>
+      <div class="logo"></div>
+      <div class="header-title">
+        <h1>Dzmitry Dub</h1>
+      </div>
+      <div class="header-contact">
+        <p>Contact info:</p>
+        <div class="contact-mail transition">
+          dzmitry.duboyski@gmail.com
+        </div>
+        <div class="contact-phone transition">
+          +37529 826 13 64
+        </div>
+        <div class="contact-telegram transition">
+          <a href="https://t.me/D8261364">Telegram</a>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <section class="about">
+        <h2>About me:</h2>
+        <p>My goal is to deeply explore the JavaScript
+          and related technologies. I like to reveal my
+          potential and work in progressive companies.
+          I like to watch the world around me change
+          and keep up with it.</p>
+        <h4>My job requirements:</h4>
+        <ul>
+          <li>good working conditions</li>
+          <li>decent wages</li>
+          <li>healthy and friendly team atmosphere</li>
+          <li>feedback with the head</li>
+          <li>opportunity for career growth</li>
+          <li>of course coffee and cookies</li>
+        </ul>
+      </section>
+      <section class="skills">
+        <h2>Skills:</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>Git</li>
+        </ul>
+      </section>
+      <section class="code">
+        <h2>Code example:</h2>
+        <p>
+          <pre>function findDup(arr) {
+          let duplicateValue;
+          arr.sort().find((element, index) => {
+            if (arr[index] === arr[index + 1]) {
+              duplicateValue = arr[index];
+            }
+          });
+          return duplicateValue;
+          }</pre>
+        </p>
+      </section>
+      <section class="expiriens">
+        <h2>Expiriens:</h2>
+        <ul>
+          <li>In 2019, together with my friend, I made a
+            small project for my work. The task was to
+            implement a database information search.
+            Source code: <a href="https://github.com/dzmitry-duboyski/Search-database">www.github.com</a></li>
+          <li>Profile <a href="https://github.com/dzmitry-duboyski/">www.github.com</a></li>
+          <li>Profile <a href="https://www.codewars.com/users/Demon666">www.codewars.com</a></li>
+        </ul>
+      </section>
+      <section class="education">
+        <h2>Education:</h2>
+        <ul>
+          <li>BarSU 2011-2017 (Software engineer)</li>
+          <li><a href="https://www.codecademy.com/profiles/dzmitryDuboyski1787734880">www.codecademy.com</a></li>
+          <li><a href="https://www.codewars.com/users/Demon666">www.codewars.com</a></li>
+        </ul>
+      </section>
+      <section class="english">
+        <h2>English:</h2>
+        <p>2018 - 2019 Course Streamline language scool - A1 starter (9 month)</p>
+      </section>
+
+    </div>
+  <footer class="footer">2020</footer>
+  </div>
 
 </body>
 
